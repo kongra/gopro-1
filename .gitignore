@@ -8,6 +8,9 @@
 *.so
 *.dylib
 
+# Resources in bin/
+bin/gopro-1/main
+
 # Test binary, built with `go test -c`
 *.test
 
