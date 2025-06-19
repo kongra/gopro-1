@@ -11,6 +11,6 @@ func main() {
 	x := routes.SomeValue
 	slog.Info("Hello", "value", x, "dupa", "jaros")
 
-	_ = <-time.After(3 * time.Second)
+	<-time.After(3 * time.Second)
 	slog.Info("Some text")
 }
